@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CP1_TGEI - Técnicos de Equipamentos Informáticos</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0a0e17;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #00b4d8, #0077b6);
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+    h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    .subtitle { font-size: 1.3rem; opacity: 0.95; }
+
+    nav {
+      background: #112233;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+    nav a:hover { color: #00d4ff; }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      padding: 60px 0;
+      border-bottom: 1px solid #223344;
+    }
+    h2 {
+      color: #00d4ff;
+      margin-bottom: 25px;
+      border-left: 5px solid #00b4d8;
+      padding-left: 15px;
+    }
+    .card {
+      background: #1a2333;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #334455;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+    th {
+      background: #00b4d8;
+      color: #000;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #0a0e17;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.imgur.com/..." alt="Logo AEBBVA" style="height:80px; margin-bottom:15px;"> <!-- Se quiseres posso adicionar o logo -->
+    <h1>CP1_TGEI</h1>
+    <p class="subtitle">Técnicos de Equipamentos Informáticos</p>
+    <p>Agrupamento de Escolas da Baixa da Banheira e Vale da Amoreira</p>
+    <p>Escola Secundária da Baixa da Banheira • 2025/2026</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#horario">Horário</a>
+    <a href="#disciplinas">Disciplinas</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contactos">Contactos</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="inicio">
+      <h2>Bem-vindos à Turma CP1_TGEI!</h2>
+      <div class="card">
+        <p>Este é o site oficial da turma de <strong>Técnicos de Equipamentos Informáticos</strong> da Escola Secundária da Baixa da Banheira.</p>
+        <p>Espaço para horários, materiais, projetos e informações importantes.</p>
+      </div>
+    </section>
+
+    <section id="horario">
+      <h2>🕒 Horário da Turma - 2025/2026</h2>
+      <div class="card">
+        <table>
+          <tr>
+            <th>Tempos</th>
+            <th>Segunda</th><th>Sala</th>
+            <th>Terça</th><th>Sala</th>
+            <th>Quarta</th><th>Sala</th>
+            <th>Quinta</th><th>Sala</th>
+            <th>Sexta</th><th>Sala</th>
+          </tr>
+          <tr>
+            <td>08:15 - 09:05</td>
+            <td>EDF</td><td>EDF4</td>
+            <td>FISeQUI</td><td>H08</td>
+            <td>COM_DAD</td><td>LINF1</td>
+            <td>IM_EI</td><td>H6</td>
+            <td>MAT_300h</td><td>LINF1</td>
+          </tr>
+          <tr>
+            <td>09:20 - 10:10</td>
+            <td>EDF</td><td>EDF4</td>
+            <td>FISeQUI</td><td>H08</td>
+            <td>COM_DAD</td><td>LINF1</td>
+            <td>IM_EI</td><td>H6</td>
+            <td>MAT_300h</td><td>LINF1</td>
+          </tr>
+          <tr>
+            <td>10:20 - 11:10</td>
+            <td>AI</td><td>LINF1</td>
+            <td>PORT</td><td>H2</td>
+            <td>IM_EI</td><td>LINF1</td>
+            <td>IM_EI</td><td>H6</td>
+            <td>SD_AC</td><td>LINF1</td>
+          </tr>
+          <tr>
+            <td>11:20 - 12:10</td>
+            <td>ELE_FUND</td><td>LINF1</td>
+            <td>PORT</td><td>H2</td>
+            <td>IM_EI</td><td>LINF1</td>
+            <td>AI</td><td>H6</td>
+            <td>SD_AC</td><td>LINF1</td>
+          </tr>
+          <tr>
+            <td>12:15 - 13:05</td>
+            <td>ELE_FUND</td><td>LINF1</td>
+            <td></td><td></td>
+            <td></td><td></td>
+            <td>AI</td><td>H6</td>
+            <td></td><td></td>
+          </tr>
+          <tr>
+            <td>13:10 - 14:00</td>
+            <td></td><td></td>
+            <td>MAT_300h</td><td>C07</td>
+            <td>SD_AC</td><td>LINF1</td>
+            <td></td><td></td>
+            <td>PORT</td><td>C04</td>
+          </tr>
+          <tr>
+            <td>14:05 - 14:55</td>
+            <td>COM_DAD</td><td>LINF1</td>
+            <td>MAT_300h</td><td>C07</td>
+            <td>SD_AC</td><td>LINF1</td>
+            <td>ING-Cont</td><td>LINF1</td>
+            <td>PORT</td><td>C04</td>
+          </tr>
+          <tr>
+            <td>15:05 - 15:55</td>
+            <td>SD_AC</td><td>LINF1</td>
+            <td>ING-Cont</td><td>LINF1</td>
+            <td></td><td></td>
+            <td>ELE_FUND</td><td>LINF1</td>
+            <td>FISeQUI</td><td>LINF1</td>
+          </tr>
+          <tr>
+            <td>16:05 - 16:55</td>
+            <td>SD_AC</td><td>LINF1</td>
+            <td>ING-Cont</td><td>LINF1</td>
+            <td></td><td></td>
+            <td>ELE_FUND</td><td>LINF1</td>
+            <td>FISeQUI</td><td>LINF1</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Outras secções permanecem iguais -->
+    <section id="disciplinas">
+      <h2>📚 Disciplinas da Turma</h2>
+      <div class="card">
+        <ul>
+          <li>ELE_FUND - Eletrónica Fundamental</li>
+          <li>FISeQUI - Física e Química</li>
+          <li>COM_DAD - Comunicação de Dados</li>
+          <li>IM_EI - Instalações Mecânicas / Equipamentos Informáticos</li>
+          <li>SD_AC - Sistemas Digitais / Arquitetura de Computadores</li>
+          <li>AI - Aplicações Informáticas</li>
+          <li>MAT_300h - Matemática</li>
+          <li>PORT, ING-Cont, EDF...</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Site da Turma CP1_TGEI • Agrupamento de Escolas da Baixa da Banheira e Vale da Amoreira ❤️</p>
+  </footer>
+
+</body>
+</html>
